@@ -1,13 +1,13 @@
-package com.amigoscode.fraud;
+package com.amigoscode.apigw;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
-@SpringBootApplication
 @EnableEurekaClient
-public class FraudApplication {
+@SpringBootApplication
+public class ApiGwApplication {
     public static void main(String[] args) {
-        SpringApplication.run(FraudApplication.class, args);
+        SpringApplication.run(ApiGwApplication.class, args);
     }
 }
